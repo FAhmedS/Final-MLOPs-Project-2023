@@ -1,0 +1,1240 @@
+hr{
+  border-style:none;
+  border-bottom-style: dotted;
+  border-color: #42B89C;
+  border-width: 10px;
+  width: 20%;
+  margin-left: 40%;
+}
+.page1
+{
+  position: relative;
+  background-color: #D1D1D1;
+  height: 960px;
+  width: 1902px;
+}
+.rectangle
+{
+  position: absolute;
+  width: 800px;
+  height: 1140px;
+  background: rgba(66, 184, 156, 1);
+  border-radius: 110px;
+  top : -250px;
+  left : 100px;
+  /* display: inline-block; */
+   margin : 0px 0px 500px 40px;
+}
+.logo
+{
+  display: inline-block;
+  position: absolute;
+  height : 120px;
+  margin: 265px 0px 0px 0px;
+}
+.heading1
+{
+  font-size: 28px;
+  margin: 0px 0px 0px 200px;
+  display: inline-block;
+  font-weight:  600;
+  font-family: 'Inter' , sans-serif;
+  margin : 450px 0px 0px 135px;
+  line-height: 25px;
+
+}
+.heading1p2
+{
+  font-size: 60px;
+  font-weight: normal;
+  font-family: 'Inter' , sans-serif;
+  font-weight:  500;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.para1
+{
+  margin: 0px 0px 0px 200px;
+  display: inline-block;
+  font-size: 22px;
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-weight: 600;
+  margin : 20px 0px 0px 135px;
+}
+.doctor1
+{
+  height : 800px;
+  width: auto;
+  position: absolute;
+  display: inline-block;
+  margin : 160px 0px 0px 950px;
+  z-index: 1;
+  filter: drop-shadow(35px 0px 4px rgba(128, 123, 123, 0.5));
+}
+.bulbs
+{
+  height: 420px;
+  top : -60px;
+  width: auto;
+  position: absolute;
+  display: inline-block;
+  margin : 0px 0px 0px 1345px;
+  z-index: 0;
+}
+.FirstPageLinks
+{
+  font-size: 22px;
+  font-family: 'Kantumruy Pro', sans-serif;
+  postion : absolute;
+  display: inline-block;
+  margin : 50px 0px 0px 1000px;
+}
+.hiw
+{
+  margin: 0px 50px 0px 0px;
+  text-decoration: none;
+  color: black;
+  /* font-weight: bold; */
+}
+.about
+{
+  margin: 0px 50px 0px 0px;
+  text-decoration: none;
+  color: black;
+  /* font-weight: bold; */
+}
+.blog
+{
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+  color: black;
+  /* font-weight: bold; */
+}
+.hiw:hover
+{
+  color:white;
+}
+.about:hover
+{
+  color:white;
+}
+.blog:hover
+{
+  color:white;
+}
+.healthWord
+{
+  font-size: 75px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+.button1 {
+ --color: #28CEC4;
+ background-color : black;
+ /* letter-spacing: 2px; */
+ font-family: 'Kumbh Sans', sans-serif;
+ display: inline-block;
+ width: 14em;
+ height: 3.8em;
+ line-height: 2.5em;
+ margin: 20px;
+ position: relative;
+ overflow: hidden;
+ border: none;
+ transition: color .5s;
+ z-index: 1;
+ font-size: 18.5px;
+ border-radius: 100px;
+ font-weight: 500;
+ color: white;
+ margin: 50px 0px 0px 250px;
+}
+
+.button1:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--color);
+ height: 150px;
+ width: 300px;
+ border-radius: 50%;
+}
+
+.button1:hover {
+ color: #fff;
+}
+
+.button1:before {
+ top: 100%;
+ left: 100%;
+ transition: all 0.6s;
+}
+
+.button1:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+.button1:active:before {
+ background: #3a0ca3;
+ transition: background 0s;
+}
+.button2 {
+ --color: black;
+ background-color : #06D4C8 ;
+ font-family: 'Kumbh Sans', sans-serif;
+ /* letter-spacing: 4px; */
+ font-weight: bold;
+ display: inline-block;
+ width: 13em;
+ height: 2.8em;
+ line-height: 2.5em;
+ margin: 20px;
+ position: relative;
+ overflow: hidden;
+ border: 0.01em solid grey;
+ transition: color .5s;
+ z-index: 1;
+ font-size: 18.5px;
+ border-radius: 100px;
+ font-weight: 500;
+ color: white;
+ margin: 40px 0px 0px 75px;
+}
+
+.button2:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--color);
+ height: 150px;
+ width: 300px;
+ border-radius: 50%;
+}
+
+.button2:hover {
+ color: #fff;
+}
+
+.button2:before {
+ top: 100%;
+ left: 100%;
+ transition: all 0.6s;
+}
+
+.button2:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+.button2:active:before {
+ background: #3a0ca3;
+ transition: background 0s;
+}
+.playbutton
+{
+  height : 30px;
+  position: relative;
+  display: inline-block;
+  margin : 0px 0px 5px 0px;
+}
+.page2
+{
+  position: relative;
+  background-color: #FDFDFD;
+  height: 960px;
+  width: 1902px;
+}
+.rectangle2
+{
+  position: relative;
+  display: inline-block;
+  top: 88px;
+  height: 780px;
+  width: 1902px;
+  background: rgba(29, 159, 128, 0.74);
+}
+.rectangle3
+{
+  position : relative;
+  display: inline-block;
+  height: 780px;
+  width: 820px;
+  left: 880px;
+  background: #FDFDFD;
+}
+.rectangle4
+{
+  position: relative;
+  display: inline-block;
+  width: 751px;
+  height: 389px;
+  left: 30px;
+  top: 200px;
+  background: rgba(95, 166, 40, 0.25);
+  border-radius: 58px;
+}
+.doctor2
+{
+  position: absolute;
+  display: inline-block;
+  top: -128px;
+  height: 1000px;
+  filter: drop-shadow(42px 0px 3px rgba(128, 123, 123, 0.5));
+}
+.deserve
+{
+  position: absolute;
+  display: inline-block;
+  color: rgba(255, 85, 85, 1);
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Kantumruy Pro', sans-serif;
+  line-height: 80px;
+  left: 50px;
+  top: 30px;
+}
+.para2
+{
+  top: 40px;
+  left: 20px;
+  position: absolute;
+  display: inline-block;
+  font-size: 23px;
+  width: 700px;
+  font-weight: bold;
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-style: italic;
+}
+.Danny
+{
+  font-size: 25px;
+  font-style: normal;
+}
+.button3 {
+  cursor: pointer;
+  font-weight: normal;
+  font-family: 'Kumbh Sans', sans-serif;
+  transition: all .2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: rgba(255, 85, 85, 1);
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 220px 0px 0px 300px;
+  position: absolute;
+}
+
+.button3:hover {
+  background: #c4e201;
+}
+
+.button3 > svg {
+  width: 84px;
+  margin-left: 0px;
+  transition: transform .3s ease-in-out;
+}
+
+.button3:hover svg {
+  transform: translateX(10px);
+}
+
+.button3:active {
+  transform: scale(0.95);
+}
+.howitworks
+{
+  position: relative;
+  display: inline-block;
+  margin:0px 0px 0px 15px;
+}
+.page3
+{
+  position: relative;
+  background-color: #DEE7EA;
+  height: 960px;
+  width: 1902px;
+}
+.headpg3
+{
+  position: absolute;
+  display: inline-block;
+  font-family: 'Laila', sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  left: 250px;
+  top: 130px;
+}
+.paraPg3
+{
+  position: absolute;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Laila', sans-serif;
+  top: 450px;
+  left: 250px;
+}
+.phoneGirl
+{
+  position: absolute;
+  display: inline-block;
+  height: 500px;
+  top: 85px;
+  left: 960px;
+}
+.house
+{
+  position: absolute;
+  display: inline-block;
+  height: 55px;
+  top : 570px;
+  left: 270px;
+}
+.work
+{
+  position: absolute;
+  display: inline-block;
+  height: 55px;
+  top : 575px;
+  left: 388px;
+}
+.travel
+{
+  position: absolute;
+  display: inline-block;
+  height: 55px;
+  top : 573px;
+  left: 485px;
+}
+.phone
+{
+  position: absolute;
+  display: inline-block;
+  height: 55px;
+  top : 578px;
+  left: 600px;
+}
+.computer
+{
+  position: absolute;
+  display: inline-block;
+  height: 52px;
+  top : 578px;
+  left: 695px;
+}
+.wordHouse
+{
+  position: absolute;
+  display: inline-block;
+  font-family: 'Laila', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  top : 628px;
+  left: 280px;
+  color: #E41616;
+}
+.wordWork
+{
+  position: absolute;
+  display: inline-block;
+  font-family: 'Laila', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  top : 630px;
+  left: 373px;
+  color: #9616E4;
+}
+.wordTravel
+{
+  position: absolute;
+  display: inline-block;
+  font-family: 'Laila', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  top : 630px;
+  left: 482px;
+  color: #D6AC35;
+}
+.wordPhone
+{
+  position: absolute;
+  display: inline-block;
+  font-family: 'Laila', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  top : 633px;
+  left: 598px;
+  color: #4CA7A3;
+}
+.wordComputer
+{
+  position: absolute;
+  display: inline-block;
+  font-family: 'Laila', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  top : 633px;
+  left: 692px;
+  color: #1C61D1;
+}
+.button9 {
+ position: relative;
+ border: none;
+ background: transparent;
+ padding: 0;
+ cursor: pointer;
+ outline-offset: 45px;
+ transition: filter 250ms;
+ user-select: none;
+ touch-action: manipulation;
+ top: 750px;
+ left: 800px;
+}
+
+.edge {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border-radius: 500px;
+ background: linear-gradient(
+    to left,
+    rgba(50, 12, 159, 1) 0%,
+    rgba(50, 12, 159, 1) 8%,
+    rgba(50, 12, 159, 1) 92%,
+    rgba(50, 12, 159, 1) 100%
+  );
+}
+
+.front {
+ display: block;
+ position: relative;
+ letter-spacing: 1.5px;
+ font-family: 'Kumbh Sans', sans-serif;
+ font-weight: 100;
+ padding: 15px 45px 15px 45px;
+ border-radius: 500px;
+ font-size: 1.2rem;
+ color: white;
+ background: rgba(89, 50, 198, 1);
+ will-change: transform;
+ transform: translateY(-4px);
+ transition: transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.button9:hover {
+ filter: brightness(150%);
+}
+
+.button9:hover .front {
+ transform: translateY(-6px);
+ transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button9:active .front {
+ transform: translateY(-2px);
+ transition: transform 34ms;
+}
+
+.button9:hover .shadow {
+ transform: translateY(4px);
+ transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button9:active .shadow {
+ transform: translateY(1px);
+ transition: transform 34ms;
+}
+
+.button9:focus:not(:focus-visible) {
+ outline: none;
+}
+
+.page4
+{
+  position: relative;
+  background-color: #A62846;
+  height: 960px;
+  width: 1902px;
+}
+.rectangle5
+{
+  width: 1080px;
+  height: 850px;
+  position: absolute;
+  display: inline-block;
+  background-color: #D9D9D9;
+  border-radius: 95px;
+  left: 740px;
+  top: 55px;
+}
+.headingpg4
+{
+  position: absolute;
+  display: inline-block;
+  font-size: 100px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  left: 50px;
+  top: 10px;
+}
+.wordModel
+{
+  color: #A62846;
+  font-size: 130px;
+  font-weight: bold;
+}
+.rectangle6
+{
+  width: 1020px;
+  height: 500px;
+  position: absolute;
+  display: inline-block;
+  background-color: rgba(166, 40, 70, 0.08);
+  border-radius: 95px;
+  left: 30px;
+  top: 310px;
+}
+.para4
+{
+  display: inline-block;
+  position: absolute;
+  width: 950px;
+  font-size: 26px;
+  font-family: 'Kulim Park', sans-serif;
+  left: 45px;
+  top: 40px;
+  font-weight: bolder;
+}
+.button5 {
+ --color: grey;
+ background-color : black;
+ /* letter-spacing: 2px; */
+ font-family: 'Kumbh Sans', sans-serif;
+ display: inline-block;
+ width: 14em;
+ height: 3.8em;
+ line-height: 2.5em;
+ margin: 20px;
+ position: relative;
+ overflow: hidden;
+ border: none;
+ transition: color .5s;
+ z-index: 1;
+ font-size: 18.5px;
+ border-radius: 100px;
+ font-weight: 500;
+ color: white;
+ left: 350px;
+ top: 350px;
+}
+
+.button5:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--color);
+ height: 150px;
+ width: 300px;
+ border-radius: 50%;
+}
+
+.button5:hover {
+ color: #fff;
+}
+
+.button5:before {
+ top: 100%;
+ left: 100%;
+ transition: all 0.6s;
+}
+
+.button5:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+.button5:active:before {
+ background: #3a0ca3;
+ transition: background 0s;
+}
+.brainImg
+{
+  position: absolute;
+  display: inline-block;
+  width: 500px;
+  left: 69px;
+  top: 75px;
+}
+.button4 {
+ --color: grey;
+ background-color : black;
+ /* letter-spacing: 2px; */
+ font-family: 'Kumbh Sans', sans-serif;
+ display: inline-block;
+ width: 14em;
+ height: 3.8em;
+ line-height: 2.5em;
+ margin: 20px;
+ position: relative;
+ overflow: hidden;
+ border: none;
+ transition: color .5s;
+ z-index: 1;
+ font-size: 18.5px;
+ border-radius: 100px;
+ font-weight: 500;
+ color: white;
+ left: 200px;
+ top: 650px;
+}
+
+.button4:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--color);
+ height: 150px;
+ width: 300px;
+ border-radius: 50%;
+}
+
+.button4:hover {
+ color: #fff;
+}
+
+.button4:before {
+ top: 100%;
+ left: 100%;
+ transition: all 0.6s;
+}
+
+.button4:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+.button4:active:before {
+ background: #3a0ca3;
+ transition: background 0s;
+}
+.analyzeNow
+{
+  font-family: 'Kumbh Sans', sans-serif
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.searchIcon
+{
+  width: 100px;
+  position: absolute;
+  display: inline-block;
+  top: 540px;
+  left: 290px;
+}
+.circle
+{
+  width : 128px;
+  position: absolute;
+  display: inline-block;
+  top: 533px;
+  left: 278px;
+}
+.page5
+{
+  position: relative;
+  background-color: rgba(34, 36, 37, 1);
+  height: 1080px;
+  width: 1902px;
+}
+.rectangle7
+{
+  position:relative;
+  top:920px;
+  width: 1902px;
+  height: 170px;
+  background-color: rgba(46, 51, 52, 1);
+}
+.loginImage
+{
+  position: absolute;
+  display: inline-block;
+  width: 1000px;
+  left: -60px;
+}
+.joinNowText
+{
+  display: inline-block;
+  position: absolute;
+  font-size: 35px;
+  font-family: 'League Spartan', sans-serif;
+  right: 710px;
+  top : 145px;
+  color: white;
+  letter-spacing: 3px;
+}
+.logo2
+{
+  width: 200px;
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+}
+.home2
+{
+  position: absolute;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Kantumruy Pro', sans-serif;
+  color: white;
+  text-decoration: none;
+  left: 430px;
+  top: 57px;
+}
+.support2
+{
+  position: absolute;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Kantumruy Pro', sans-serif;
+  color: white;
+  text-decoration: none;
+  left: 570px;
+  top: 57px;
+}
+.aboutUs2
+{
+  position: absolute;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Kantumruy Pro', sans-serif;
+  color: white;
+  text-decoration: none;
+  left: 730px;
+  top: 57px;
+}
+.blog2
+{
+  position: absolute;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Kantumruy Pro', sans-serif;
+  color: white;
+  text-decoration: none;
+  left: 900px;
+  top: 57px;
+}
+.home2:hover
+{
+  filter: brightness(70%);
+}
+.support2:hover
+{
+  filter: brightness(70%);
+}
+.aboutUs2:hover
+{
+  filter: brightness(70%);
+}
+.blog2:hover
+{
+  filter: brightness(70%);
+}
+.followUs
+{
+  position: absolute;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Kantumruy Pro', sans-serif;
+  color: white;
+  text-decoration: none;
+  left: 1090px;
+  top: 59px;
+}
+.insta
+{
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 1300px;
+  top: 55px;
+}
+.facebook
+{
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 1600px;
+  top: 55px;
+}
+.whatsapp
+{
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 1740px;
+  top: 55px;
+}
+.twitter
+{
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 1452px;
+  top: 55px;
+}
+.login-box {
+  position: absolute;
+  top: 530px;
+  left: 1410px;
+  height: 600px;
+  width: 830px;
+  padding: 40px;
+  margin: 20px auto;
+  transform: translate(-50%, -55%);
+  background: rgba(0,0,0,.9);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box p:first-child {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 3px
+}
+
+.login-box a:hover {
+  background: #fff;
+  color: #272727;
+  border-radius: 5px;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #fff);
+  animation: btn-anim1 1.5s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #fff);
+  animation: btn-anim2 1.5s linear infinite;
+  animation-delay: .375s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  left: 900px;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #fff);
+  animation: btn-anim3 1.5s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #fff);
+  animation: btn-anim4 1.5s linear infinite;
+  animation-delay: 1.125s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+
+  50%,100% {
+    bottom: 100%;
+  }
+}
+
+.login-box p:last-child {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.login-box a.a2 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.login-box a.a2:hover {
+  background: transparent;
+  color: #aaa;
+  border-radius: 5px;
+}
+.secondPage
+{
+  position: relative;
+  background-color: #A62846;
+  height: 981px;
+  width: 1920px;
+}
+.shape
+{
+  position: absolute;
+  width: 710px;
+  height: 120px;
+  left: -189px;
+  top: 35px;
+  background: #1D0202;
+  border-radius: 80px;
+
+}
+.logo3
+{
+  position: absolute;
+  display: inline-block;
+  width: 350px;
+  /* right: -1000px; */
+  left: 270px;
+}
+.brain3
+{
+  position: absolute;
+  display: inline-block;
+  width: 400px;
+  left: 750px;
+  top: 110px;
+}
+.inputBox
+{
+  position: absolute;
+  display: inline-block;
+  top: 520px;
+  left: 560px;
+  width: 750px;
+}
+.button6{
+ --color: rgba(57, 53, 53, 1);
+ background-color : black;
+ /* letter-spacing: 2px; */
+ font-family: 'Kumbh Sans', sans-serif;
+ display: inline-block;
+ width: 8em;
+ height: 2.8em;
+ line-height: 2.5em;
+ margin: 20px;
+ position: relative;
+ overflow: hidden;
+ border: none;
+ transition: color .5s;
+ z-index: 1;
+ font-size: 18.5px;
+ border-radius: 100px;
+ font-weight: 500;
+ color: white;
+ left: 750px;
+ top: -70px;
+}
+
+.button6:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--color);
+ height: 150px;
+ width: 300px;
+ border-radius: 50%;
+}
+
+.button6:hover {
+ color: #fff;
+}
+
+.button6:before {
+ top: 100%;
+ left: 100%;
+ transition: all 0.6s;
+}
+
+.button6:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+.button6:active:before {
+ background: #3a0ca3;
+ transition: background 0s;
+}
+.sign
+{
+  height : 30px;
+  position: relative;
+  display: inline-block;
+  margin : 0px 9px 5px 0px;
+  filter: invert(1);
+}
+.button7 {
+ --color: rgba(57, 53, 53, 1);
+ background-color : black;
+ /* letter-spacing: 2px; */
+ font-family: 'Kumbh Sans', sans-serif;
+ display: inline-block;
+ width: 14em;
+ height: 3.8em;
+ line-height: 2.5em;
+ margin: 20px;
+ position: relative;
+ overflow: hidden;
+ border: none;
+ transition: color .5s;
+ z-index: 1;
+ font-size: 18.5px;
+ border-radius: 100px;
+ font-weight: 500;
+ color: white;
+ left: 840px;
+ top: 580px;
+}
+
+.button7:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--color);
+ height: 150px;
+ width: 300px;
+ border-radius: 50%;
+}
+
+.button7:hover {
+ color: #fff;
+}
+
+.button7:before {
+ top: 100%;
+ left: 100%;
+ transition: all 0.6s;
+}
+
+.button7:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+.button7:active:before {
+ background: #3a0ca3;
+ transition: background 0s;
+}
+.predicted1
+{
+  color: white;
+  top: 170px;
+  position: absolute;
+  display: block;
+  font-size: 50px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
