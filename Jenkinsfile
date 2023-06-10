@@ -10,7 +10,8 @@ pipeline {
                 echo 'hello world'
             }
         }
-
+    }
+    
         stage('Build Docker Image') {
             steps {
                 // Build the Docker image
