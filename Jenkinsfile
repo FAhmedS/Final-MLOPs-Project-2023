@@ -29,14 +29,15 @@ pipeline {
             steps {
                 echo 'Running..'
                 echo 'Running docker container run..'
-                bat 'docker container run -d -p 4000:2000 flaskimage:latest'
+                bat 'docker container run -d -p 4000:2000 --NamedFlaskContainer flaskimage:latest'
             }
         }
-        stage('Cleanup') {
+        stage('Cleanup Image and Stopping Container') {
             steps {
                 echo 'Cleaning..'
-                echo 'Running docker rmi..'
-                bat 'docker rmi flaskimage:latest'
+                echo 'Running docker stop container..'
+                bat 'docker container stop NamedFlaskContainer'
+                bat 'docker rmi -f flaskimage:latest'
             }
         }
     }
