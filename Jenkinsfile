@@ -6,6 +6,9 @@ pipeline {
             steps {
                 echo 'Initializing..'
                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+                // Clone the GitHub repository
+                echo 'Github Checkout Also'
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'MLOPs_SSH', url: 'git@github.com:FAhmedS/Final-MLOPs-Project-2023.git']])
             }
         }
         stage('Test') {
@@ -14,10 +17,11 @@ pipeline {
                 echo 'Running pytest..'
             }
         }
-        stage('Build') {
+        stage('Build Docker image') {
             steps {
                 echo 'Building..'
                 echo 'Running docker build -t sntshk/cotu .'
+                sh 'docker build -t mlops-docker-image-final .'
             }
         }
         stage('Publish') {
