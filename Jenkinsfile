@@ -5,6 +5,8 @@ pipeline {
             steps {
                 echo 'Initializing..'
                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'MLOPs_SSH', url: 'git@github.com:FAhmedS/Final-MLOPs-Project-2023.git']])
+                echo 'CHECKOUT SUCCESSFLLLLLL'
             }
         }
         stage('Test') {
