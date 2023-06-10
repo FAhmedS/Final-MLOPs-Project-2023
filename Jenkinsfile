@@ -1,22 +1,35 @@
 pipeline {
-    agent {
-        dockerfile true
-    }
+    agent any
 
     stages {
-        stage('Checkout') {
+        stage('Adan Branch Init') {
             steps {
-                //Checkout
-                echo 'hello world'
+                echo 'Initializing..'
+                echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
             }
         }
-    }
-    
-        stage('Build Docker Image') {
+        stage('Test') {
             steps {
-                // Build the Docker image
-                sh 'docker build -t image1/image1'
-                }
+                echo 'Testing..'
+                echo 'Running pytest..'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Building..'
+                echo 'Running docker build -t sntshk/cotu .'
+            }
+        }
+        stage('Publish') {
+            steps {
+                echo 'Publishing..'
+                echo 'Running docker push..'
+            }
+        }
+        stage('Cleanup') {
+            steps {
+                echo 'Cleaning..'
+                echo 'Running docker rmi..'
             }
         }
     }
