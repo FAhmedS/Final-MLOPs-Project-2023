@@ -9,12 +9,14 @@ pipeline {
                 echo 'Initializing..'
                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
                 sh 'docker build -t image1/image1'
+                echo 'IMAGE BUILD WASSS SUCCESS!'
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
                 echo 'Running pytest..'
+            
             }
         }
         stage('Build') {
