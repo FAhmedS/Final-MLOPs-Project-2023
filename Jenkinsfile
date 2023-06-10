@@ -22,7 +22,7 @@ pipeline {
                 echo 'Building..'
                 echo 'Running docker build -t sntshk/cotu .'
                 bat 'docker build -t flaskimage:latest .'
-                echo 'Build Successfil..!'
+                echo 'Build Successfull..!'
             }
         }
         stage('Running Docker Container') {
@@ -30,6 +30,7 @@ pipeline {
                 echo 'Running..'
                 echo 'Running docker container run..'
                 bat 'docker container run -d -p 4000:2000 --NamedFlaskContainer flaskimage:latest'
+                echo 'Docker Container running successfully...!'
             }
         }
         stage('Cleanup Image and Stopping Container') {
@@ -38,6 +39,7 @@ pipeline {
                 echo 'Running docker stop container..'
                 bat 'docker container stop NamedFlaskContainer'
                 bat 'docker rmi -f flaskimage:latest'
+                echo 'Stopping Container & Deleting Images Successful....!'
             }
         }
     }
