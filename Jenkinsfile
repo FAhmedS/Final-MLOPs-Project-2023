@@ -29,7 +29,7 @@ pipeline {
             steps {
                 echo 'Running..'
                 echo 'Running docker container run..'
-                bat 'docker container run -d -p 4000:2000 --NamedFlaskContainer flaskimage:latest'
+                bat 'docker container run -d -p 4000:2000 --name NamedFlaskContainer flaskimage:latest'
                 echo 'Docker Container running successfully...!'
             }
         }
