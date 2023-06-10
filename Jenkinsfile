@@ -27,7 +27,7 @@ pipeline {
             steps {
                 echo 'Publishing..'
                 echo 'Running docker push..'
-                bat 'docker container run -d -p 8080:80 :latest'
+                bat 'docker container run -d -p 8080:80 flaskimage:latest'
             }
         }
         stage('Cleanup') {
