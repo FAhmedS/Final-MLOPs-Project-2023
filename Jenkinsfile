@@ -20,7 +20,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo 'Running docker build -t sntshk/cotu .'
-                bat 'docker build -t flaskImage:latest .'
+                bat 'docker build -t flaskimage:latest .'
             }
         }
         stage('Publish') {
