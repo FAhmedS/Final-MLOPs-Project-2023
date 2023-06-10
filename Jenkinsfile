@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Adan Branch Init') {
+        stage('Main Branch Init') {
             steps {
                 echo 'Initializing..'
                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
