@@ -20,12 +20,14 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo 'Running docker build -t sntshk/cotu .'
+                bat 'docker build -t flaskImage:latest -f Dockerfile .'
             }
         }
         stage('Publish') {
             steps {
                 echo 'Publishing..'
                 echo 'Running docker push..'
+                bat 'docker container run -d -p 8080:80 :latest'
             }
         }
         stage('Cleanup') {
