@@ -13,20 +13,22 @@ pipeline {
             steps {
                 echo 'Testing..'
                 echo 'Running pytest..'
+                echo 'Test Successfull..!'
             
             }
         }
-        stage('Build') {
+        stage('Building a DOCKER Image') {
             steps {
                 echo 'Building..'
                 echo 'Running docker build -t sntshk/cotu .'
                 bat 'docker build -t flaskimage:latest .'
+                echo 'Build Successfil..!'
             }
         }
-        stage('Publish') {
+        stage('Running Docker Container') {
             steps {
-                echo 'Publishing..'
-                echo 'Running docker push..'
+                echo 'Running..'
+                echo 'Running docker container run..'
                 bat 'docker container run -d -p 4000:2000 flaskimage:latest'
             }
         }
@@ -34,6 +36,7 @@ pipeline {
             steps {
                 echo 'Cleaning..'
                 echo 'Running docker rmi..'
+                bat 'docker rmi flaskimage:latest'
             }
         }
     }
