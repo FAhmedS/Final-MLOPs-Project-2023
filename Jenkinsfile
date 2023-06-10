@@ -39,6 +39,7 @@ pipeline {
                 echo 'Running docker stop container..'
                 bat 'docker container stop NamedFlaskContainer'
                 bat 'docker rmi -f flaskimage:latest'
+                bat 'docker rm NamedFlaskContainer'
                 echo 'Stopping Container & Deleting Images Successful....!'
             }
         }
