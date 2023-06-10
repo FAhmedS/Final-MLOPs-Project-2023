@@ -1,11 +1,14 @@
 pipeline {
-    agent any
+    agent{
+        dockerfile true
+    }
 
     stages {
         stage('Main Branch Init') {
             steps {
                 echo 'Initializing..'
                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+                sh 'docker build -t image1/image1'
             }
         }
         stage('Test') {
