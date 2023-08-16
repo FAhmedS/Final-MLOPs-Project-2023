@@ -1,6 +1,11 @@
 # Final-MLOPs-Project-2023
 This the repository that is going to be used for implementing workflows, version controlling and demo after completion:)
-ABCD
+1. Git & Github for version controlling.
+2. CI/CD pipline with Jenkins via webhook integration.
+3. Containerization using Docker.
+4. Data version Controlling (DVC).
+5. Mlflow.
+6. Apache airflow.
 ![Screenshot (394)](https://github.com/FAhmedS/Final-MLOPs-Project-2023/assets/125798840/9957899f-ce3b-4cba-9f09-ee926203d6cc)
 ![Screenshot (393)](https://github.com/FAhmedS/Final-MLOPs-Project-2023/assets/125798840/cb312950-3dab-457d-a2de-0fd1fcfd1d66)
 ![Screenshot (399)](https://github.com/FAhmedS/Final-MLOPs-Project-2023/assets/125798840/d7b7ae3c-68e0-499a-aef6-d6dc48a01134)
